@@ -1,0 +1,114 @@
+/*  footer */
+
+
+
+.end-content {
+  width: 100%;
+  height: 75vh;
+  margin-top: 0px;
+  background-color: rgb(14,29,52);
+
+}
+
+.end-content h2 {
+  padding-top: 60px;
+  color: white;
+  font-size: 25px;
+}
+
+.end-content p {
+  color: white;
+  font-size: 15px;
+}
+
+.end-content .social-icon {
+  width: 100%;
+  height: auto;
+
+}
+
+.end-content .social-icon i {
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  cursor: pointer;
+  margin: 0px 8px;
+}
+
+.end-content h3 {
+  padding-top: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.end-content ul {
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+
+}
+
+.end-content li {
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  padding: 6px;
+  margin: 4px;
+}
+
+.end-content h5 {
+  color: white;
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.end-content h6 {
+  padding-top: 10px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.end-content h6 a:hover {
+  text-decoration: none;
+
+}
+
+@media (max-width : 750px) {
+  .end-content {
+    height: auto;
+    padding-bottom:  15px;
+    overflow: hidden;
+
+  }
+
+  .end-content h2 {
+    padding-left: 15px;
+  }
+
+  .end-content p {
+    padding-left: 15px;
+  }
+
+  .end-content h3 {
+    padding-top: 25px;
+  }
+
+ 
+
+  .end-content .col-sm-6 {
+    width: 50%;
+  }
+
+
+
+}
+
+@media (min-width : 751px) and (max-width : 950px) {
+
+  .end-content {
+    height: 80vh;
+  }
+
+}

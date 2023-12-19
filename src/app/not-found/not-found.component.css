@@ -1,0 +1,56 @@
+
+
+/*  not-found component */
+
+
+
+
+.not-found {
+  margin-top: 72px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+.not-found .img-fluid {
+  width: 65%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+
+}
+
+.not-found h3 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+  margin-top: 25px;
+
+}
+
+
+@media (max-width : 750px) {
+
+
+  .not-found .img-fluid {
+    width: 100%;
+    height: auto;
+
+  }
+
+}
+
+
+@media (min-width : 751px) and (max-width : 950px) {
+
+  .not-found .img-fluid {
+    width: 100%;
+    height: auto;
+
+  }
+
+}

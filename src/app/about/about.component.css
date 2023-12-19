@@ -1,0 +1,83 @@
+
+
+/*  about component  */
+
+
+.about-us {
+  width: 100%;
+  height: auto;
+
+  margin-top: 71px;
+}
+
+.about-us h2 {
+  padding-top: 40px;
+  font-size: 27px;
+  color: rgb(0,31,141);
+
+}
+
+
+.about-us p {
+  font-size: 17px;
+  color: rgb(25,51,92);
+}
+
+
+.about-us .about-us-info-2 {
+
+  width: 100%;
+  height: auto;
+
+}
+
+.about-us .about-us-info-2 h3,
+.about-us .about-us-info-2 h4,
+.about-us .about-us-info-2 h5 {
+  font-size: 22px;
+  color: rgb(0,31,141);
+}
+
+.about-us .about-us-info-2 i {
+  color: rgb(25,51,92);
+}
+
+
+.about-us .img-fluid {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+}
+
+
+@media (max-width : 750px) {
+
+  .about-us .about-us-info-2 p {
+    margin-bottom: 20px;
+  }
+
+  .about-us h2 {
+    text-align: center;
+  }
+
+  .about-us .img-fluid {
+    padding-top: 60px;
+  }
+
+}
+
+@media (min-width : 751px) and (max-width : 950px) {
+
+  .about-us .about-us-info-2 p {
+    margin-bottom: 20px;
+  }
+
+  .about-us h2 {
+    text-align: center;
+  }
+
+  .about-us .img-fluid {
+    padding-top: 60px;
+  }
+
+}

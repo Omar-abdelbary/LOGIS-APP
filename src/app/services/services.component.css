@@ -1,0 +1,225 @@
+
+
+/*  services component  */
+
+
+.services {
+  width: 100%;
+  height: auto;
+  margin-top: 73px;
+
+}
+
+.services h4 {
+  padding-top: 70px;
+  margin-bottom: 60px;
+  text-decoration: underline;
+  font-size: 25px;
+  color: #001f8d;
+
+}
+
+
+.services .services-info-1,
+.services .services-info-2,
+.services .services-info-3,
+.services .services-info-4,
+.services .services-info-5,
+.services .services-info-6 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(245,248,253);
+  border: 1px solid #132848;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 25px;
+  overflow: hidden;
+
+}
+
+.services .services-info-1 .img-fluid,
+.services .services-info-2 .img-fluid,
+.services .services-info-3 .img-fluid,
+.services .services-info-4 .img-fluid,
+.services .services-info-5 .img-fluid,
+.services .services-info-6 .img-fluid {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  transition: 1s;
+}
+
+
+
+.services .services-info-1:hover .img-fluid,
+.services .services-info-2:hover .img-fluid,
+.services .services-info-3:hover .img-fluid,
+.services .services-info-4:hover .img-fluid,
+.services .services-info-5:hover .img-fluid,
+.services .services-info-6:hover .img-fluid {
+
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+
+.services .services-info-1 h3,
+.services .services-info-2 h3,
+.services .services-info-3 h3,
+.services .services-info-4 h3,
+.services .services-info-5 h3,
+.services .services-info-6 h3 {
+  color: #132848;
+  font-size: 20px;
+  transition: 1s;
+
+}
+
+.services .services-info-1:hover h3,
+.services .services-info-2:hover h3,
+.services .services-info-3:hover h3,
+.services .services-info-4:hover h3,
+.services .services-info-5:hover h3,
+.services .services-info-6:hover h3 {
+
+  color: #001f8d;
+}
+
+
+.services .services-info-1 p,
+.services .services-info-2 p,
+.services .services-info-3 p,
+.services .services-info-4 p,
+.services .services-info-5 p,
+.services .services-info-6 p {
+  font-size: 16px;
+  color: #132848;
+  transition: 1s;
+}
+
+
+.services .services-info-1:hover p,
+.services .services-info-2:hover p,
+.services .services-info-3:hover p,
+.services .services-info-4:hover p,
+.services .services-info-5:hover p,
+.services .services-info-6:hover p {
+
+  color: #001f8d;
+}
+
+
+.services-info-7 {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+
+}
+
+.services-info-7 .img-fluid {
+  width: 100%;
+  height: auto;
+  background-color: rebeccapurple;
+}
+
+.services-info-7 h3 {
+  padding-top: 25px;
+  color: #132848;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.services-info-7 p {
+  color: #001f8d;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+.services-info-7 p i {
+  color: #132848;
+}
+
+.services .services-info-8 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+
+}
+
+.services .services-info-8 .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.services .services-info-8 h3 {
+  padding-top: 25px;
+  color: #132848;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.services .services-info-8 p {
+  color: #132848;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+
+.services .services-info-9 {
+  width: 100%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  margin-top: 30px;
+}
+
+.services .services-info-9 .img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.services .services-info-9 h3 {
+  color: #132848;
+  font-size: 22px;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.services .services-info-9 p {
+  font-size: 17px;
+  color: #132848;
+  margin-bottom: 30px;
+}
+
+.services .services-info-9 h5,
+.services .services-info-9 h6 {
+  color: #132848;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.services .services-info-9 h5 i,
+.services .services-info-9 h6 i {
+  font-size: 16px;
+  color: #001f8d;
+}
+
+
+.services .services-info-10 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.services .services-info-10 h4 {
+  text-decoration: none;
+  color: #001f8d;
+  font-size: 22px;
+  padding-top: 25px;
+  margin-bottom: 15px;
+}
+
+.services .services-info-10 p {
+  color: #132848;
+
+}

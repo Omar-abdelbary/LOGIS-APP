@@ -1,0 +1,78 @@
+
+
+
+
+/*  header  */
+
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: rgb(38,51,72);
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999999999999999999999 !important;
+  padding-bottom: 10px;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  color: white;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon   {
+  color: white !important;
+  font-size: 25px !important;
+  margin-top: 32px;
+  margin-right: 5px;
+}
+
+.navbar .navbar-nav {
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.navbar .navbar-nav .nav-item {
+
+  margin-right: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 8px;
+
+}
+
+
+
+
+
+@media (max-width :750px) {
+
+  .navbar .navbar-nav  {
+    text-align: center !important;
+  }
+
+
+
+
+}
+
+
+
+
+@media (min-width :751px) and (max-width : 950px) {
+
+
+  .navbar .navbar-nav  {
+    text-align: center !important;
+  }
+
+
+
+}

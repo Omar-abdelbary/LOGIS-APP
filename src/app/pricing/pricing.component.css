@@ -1,0 +1,227 @@
+/*  pricing component  */
+
+
+
+
+
+.pricing {
+  width: 100%;
+  height: auto;
+  margin-top: 72px;
+}
+
+
+
+.pricing .pricing-info-1,
+.pricing .pricing-info-2,
+.pricing .pricing-info-3 {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(245,248,253);
+  border: 1px solid #132848;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.pricing .pricing-info-1 h3 {
+  padding-top: 35px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: #132848;
+  font-size: 22px;
+
+}
+
+.pricing .pricing-info-1 p {
+  font-size: 19px;
+  padding-left: 15px;
+  color: rgb(13,66,255);
+}
+
+
+.pricing .pricing-info-1 p span {
+  color: #132848;
+}
+
+
+.pricing .pricing-info-1 h4 {
+  padding-left: 15px;
+  font-size: 18px;
+  color: #132848;
+  margin-bottom: 15px;
+}
+
+.pricing .pricing-info-1 h4 i {
+  color: green;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+
+.pricing .pricing-info-1 h5  {
+  padding-left: 15px;
+  font-size: 17px;
+  color: #132848;
+  margin-bottom: 15px;
+  text-decoration: line-through;
+}
+
+.pricing .pricing-info-1 h5 span {
+  text-decoration: line-through;
+}
+
+.pricing .pricing-info-1 h5 i {
+  color: red;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.pricing .pricing-info-1 .btn {
+  margin-left: 130px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid rgb(13,66,255);
+  color: rgb(13,66,255);
+  transition: 1s;
+}
+
+
+.pricing .pricing-info-1 .btn:hover {
+  background-color: rgb(13,66,255);
+  color: white;
+}
+
+.pricing .pricing-info-2 h3 {
+  padding-top: 35px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: #132848;
+  font-size: 22px;
+}
+
+
+.pricing .pricing-info-2 p {
+  font-size: 19px;
+  padding-left: 15px;
+  color: rgb(13,66,255);
+}
+
+
+.pricing .pricing-info-2 p span {
+  color: #132848;
+}
+
+
+.pricing .pricing-info-2 h4 {
+  padding-left: 15px;
+  font-size: 18px;
+  color: #132848;
+  margin-bottom: 15px;
+}
+
+.pricing .pricing-info-2 h4 i {
+  color: green;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+
+.pricing .pricing-info-2 .btn {
+  margin-left: 130px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid #132848;
+  background-color: rgb(13,66,255);
+  color: white;
+  transition: 1s;
+}
+
+
+
+.pricing .pricing-info-3 h3 {
+  padding-top: 35px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: #132848;
+  font-size: 22px;
+
+}
+
+.pricing .pricing-info-3 p {
+  font-size: 19px;
+  padding-left: 15px;
+  color: rgb(13,66,255);
+}
+
+
+.pricing .pricing-info-3 p span {
+  color: #132848;
+}
+
+
+.pricing .pricing-info-3 h4 {
+  padding-left: 15px;
+  font-size: 18px;
+  color: #132848;
+  margin-bottom: 15px;
+}
+
+.pricing .pricing-info-3 h4 i {
+  color: green;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+
+.pricing .pricing-info-3 h5  {
+  padding-left: 15px;
+  font-size: 17px;
+  color: #132848;
+  margin-bottom: 15px;
+  text-decoration: line-through;
+}
+
+
+
+.pricing .pricing-info-3 h5 i {
+  color: red;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.pricing .pricing-info-3 .btn {
+  margin-left: 130px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid rgb(13,66,255);
+  color: rgb(13,66,255);
+  transition: 1s;
+}
+
+
+.pricing .pricing-info-3 .btn:hover {
+  background-color: rgb(13,66,255);
+  color: white;
+}
+
+
+@media (max-width:750px) {
+
+  .pricing .pricing-info-1,
+.pricing .pricing-info-2 {
+  margin-bottom: 0px;
+}
+
+}
+
+
+@media (min-width :751px) and (max-width:950px) {
+
+  .pricing .pricing-info-1,
+  .pricing .pricing-info-2 {
+    margin-bottom: 0px;
+  }
+
+}
